@@ -12,4 +12,5 @@ if (userInput == (isNaN) || userAge == (isNaN)){
 price = userAge < 18 ? price * 0.8 : userAge >= 65 ? price * 0.6 : price
 
 //GET RESULT
-document.getElementById("main-container").innerHTML = "Your ticket's price is: ${Math.ceil(price)}";
+document.getElementById("main-container").innerHTML = "Your ticket's price is: ";
+console.log(Math.ceil(price));
